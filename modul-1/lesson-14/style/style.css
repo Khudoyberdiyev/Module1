@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap");
+
+*::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  min-width: 100px;
+  padding: 0 250px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+  background-color: bisque;
+}
+.nav .list {
+  display: flex;
+  align-items: center;
+  column-gap: 65px;
+}
+.nav .list:nth-child(5) {
+  list-style: none;
+  width: 153px;
+  height: 0px;
+
+  border: 1px solid #333333;
+  transform: rotate(0.16deg);
+}
+.item {
+  list-style-type: none;
+}
+.link {
+  font-family: "Roboto";
+  font-size: 400;
+  color: #333333;
+  text-decoration: none;
+}
+
+#intro {
+  height: 565px;
+  width: 100%;
+  background-image: url(../assets/images/smart.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: auto;
+}
+.wrapper > h1 {
+  color: aqua;
+  margin-top: 151px;
+  padding-top: 152px;
+       display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-family: 'Roboto';
+}
+.wrapper > p {
+  /* width: 0px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  border: 3px solid #888888; */
+  margin-bottom: 180px;
+ flex: none;
+order: 1;
+flex-grow: 0;
+  color: blue;
+   border: 2px solid darkblue;
+  
+}
+#about .wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 68px;
+  margin-bottom: 90px;
+  column-gap: 80px;
+}
+.card >h2{
+  margin-bottom: 30px;
+}
+#offers .wrapper{
+  display: flex;
+  margin-bottom: 70px;
+  justify-content: flex-end;
+  column-gap: 120px;
+  /* flex-direction: column-reverse; */
+}
+.wrapper >h2{
+  margin-bottom: 30px;
+}
+.wrapper >p{
+  margin-bottom: 30px;
+}
+#service{
+
+  position: absolute;
+width: 1250px;
+height: 830.19px;
+top: 1849px;
+  background-image: url(../assets/images/runners\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: auto;
+}

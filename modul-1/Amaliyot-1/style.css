@@ -1,0 +1,26 @@
+.wrapper {
+  /* background-color: aqua; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.nav-item {
+  background-color: blue;
+  padding: 20px;
+  margin: 0 auto;
+}
+.wrapper2 {
+  background: url(./bacground.png);
+  position: absolute;
+  width: 1920px;
+  height: 661px;
+  left: 0px;
+  top: 0px;
+}
+.img {
+  position: absolute;
+  width: 497px;
+  height: 497px;
+  left: 600px;
+  top: -3px;
+}

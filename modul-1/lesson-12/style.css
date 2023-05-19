@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+.scan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scan .img {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background: url(./assets/imge/images\ \(2\).jfif);
+  background-size: 400px;
+  background-repeat: repeat-x;
+}
+.scan .img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(./assets/imge/qrcode-gradient-showcase-1.png);
+  background-size: 400px;
+  background-repeat: repeat-y;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,100%
+   {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+.scan .img::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 8px;
+  background: #35fdf3;
+  border-radius: 0px;
+  filter: drop-shadow(0 0 20px #35fdf3) drop-shadow(0 0 60px #35fd5c);
+  animation: line 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,100%
+   {
+    height: 0%;
+  }
+  50% {
+    height: 100%;
+  }
+}

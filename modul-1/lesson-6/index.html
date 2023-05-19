@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>lesson</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Redistration Form</h2>
+      <div class="line"></div>
+      <form action="http://echo.htmlacademy.ru/" method="POst">
+        <label for="f_name">
+          <p>Enter First Name</p>
+          <input
+            id="f_name"
+            name="First Name"
+            required
+            type="text"
+            placeholder="Enter first name"
+            aria-label="Enter First Name"
+          />
+        </label>
+        <label for="l_name">
+          <p>Enter Last Name</p>
+          <input
+            id="l_name"
+            name="Last Name"
+            required
+            type="text"
+            placeholder="Enter Last name"
+            aria-label="Enter Last Name"
+          />
+        </label>
+        <label for="tel_num">
+          <p>Enter Tel Number</p>
+          <input
+            id="tel_name"
+            name="Tel Num"
+            required
+            type="text"
+            placeholder="Enter Tel Number"
+            aria-label="Enter Tel Name"
+          />
+        </label>
+        <label for="email">
+          <p>Enter Last Name</p>
+          <input
+            id="email"
+            name="Email"
+            required
+            type="text"
+            placeholder="Enter Email Adress"
+            aria-label="Enter Email Adress"
+          />
+        </label>
+        <label for="gender">
+        <span>Male</span> <input type="radio" name="gender" id="male">
+       <span>Female</span> <input type="radio" name="gender" id="female">
+        </label>
+        <select name="region" id="region">
+            <option value="0" disabled>Select Region</option>
+            <option value="1">Toshkent</option>
+            <option value="1">Fargona</option>
+            <option value="1">Andijon</option>
+            <option value="1">Jizzax</option>
+            <option value="1">Sirdaryo</option>
+        </select>
+        <label for="pasword">
+          <p>Enter  Pasword</p>
+          <input
+            id="pasword"
+            name="Pasword"
+            required
+            type="text"
+            placeholder="Enter Pasword\s"
+            aria-label="Enter  Pasword\"
+          />
+        </label>
+        <label for="birth">
+            <p>Enter birthday</p>
+        </label>
+        <label for="chek">
+          <p>Confirm All Accerr</p>
+          <input
+            id="chel"
+            name="Confirm"
+            required
+            type="text"
+            placeholder="Enter Pasword\s"
+            aria-label="Enter  Pasword\"
+          />
+        <input type="file" name="image" id="img">
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </body>
+</html>

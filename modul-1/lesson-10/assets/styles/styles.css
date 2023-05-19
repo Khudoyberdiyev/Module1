@@ -1,0 +1,158 @@
+*::after,
+::before,
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Seogoe bold";
+  src: url("../assets/fonts/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold.ttf");
+}
+@font-face {
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 100px;
+  box-shadow: 0 1 #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.Logo {
+  font-size: 48px;
+  text-decoration: none;
+  color: rgb(31, 85, 166);
+}
+
+.nav_list {
+  display: flex;
+  column-gap: 60px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav_list--item {
+  font-size: 16px;
+}
+
+.nav_list--item-link {
+  color: #666666;
+  text-decoration: none;
+}
+.btn {
+  height: 50px;
+  width: 170px;
+  background-color: #4597cb;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 8px;
+}
+
+#intro{
+    min-height: 771px;
+    width: 100%;
+   background-image: url("../assets/Union.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0 158px; 
+}
+.wrapper{
+    min-width: 1046px;
+    text-align: center;
+    margin: 0 auto;
+}
+.intro_title{
+    font-size: 58px;
+    color: #474747;
+    line-height: 78px;
+    
+}
+
+.intro_title span {
+    color: #4597cb;
+}
+.intro_text{
+    color: #666666;
+    font-weight: 400 !important;
+    margin-top: 38px;
+    font-size: 16px;
+    max-width: 828px;
+    text-align: center;
+    left: auto;
+}
+.intro_btn{
+height: 50px;
+  width: 170px;
+  background-color: #4597cb;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 8px;
+  margin: 38px auto 21px;
+
+
+}
+.wrapper a span{
+    color: #666666;
+    text-decoration: underline;
+    position: relative;
+    top: -4px;
+    font-family: "Segoe regular";
+}
+
+#service {
+    min-width: 265px;
+    width: 100%;
+    text-align: center;
+}
+.servise_title{
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #666666;
+}
+.service_text{
+    font-family: "Segoe regular";
+    max-width: 875px;
+    margin: 0 auto 46px;
+    color: #666666;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dot span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4597cb;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.active_dot{
+    background-color: #4597cb;
+    
+}
